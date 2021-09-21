@@ -1,0 +1,156 @@
+\chapter{Utente acquirente}
+
+
+\section{Prenotazione di un articolo}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente
+    \item \textbf{precondizione}: L’utente acquirente effettua il login
+
+    \begin{enumerate}
+        \item L’utente acquirente accede alla Home
+        \item L’utente acquirente cerca, dall’apposita barra, l’articolo desiderato
+        \item L’utente acquirente clicca sull’articolo interessato
+        \item L’utente acquirente clicca sul pulsante “prenota subito”
+        \item Il sistema chiede la conferma della prenotazione
+        \label{itemPren1}
+        \item L'utente acquirente clicca su “conferma”
+        \item Il sistema prenota l’articolo
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+        \item[\ref{itemPren1}a.] La prenotazione non può avvenire
+        \item Il sistema avvisa l’utente acquirente che non è possibile prenotare l’articolo desiderato
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: L’utente acquirente ha prenotato l’articolo desiderato
+\end{itemize}
+
+
+\section{Creazione di una lista d’acquisto}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente
+    \item \textbf{precondizione}: L’utente acquirente deve effettua il login
+
+    \begin{enumerate}
+        \item L’utente acquirente accede alla Home
+        \item L’utente acquirente clicca sul pulsante “liste”
+        \item Il sistema apre l’elenco delle liste
+        \item L’utente acquirente clicca sul pulsante “crea”
+        \item Il sistema richiede il nome della lista 
+        \item L’utente acquirente inserisce i dati della lista
+        \item L’utente acquirente clicca sul pulsante “conferma”
+        \item Il sistema verifica i dati della lista
+        \label{listCr1}
+        \item Il sistema memorizza i dati della lista
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+        \item[\ref{listCr1}a.] La lista già esiste
+        \item Il sistema notifica che la lista già esiste
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: L’utente acquirente ha creato una nuova lista
+\end{itemize}
+		
+
+\section{Modifica di una lista d’acquisto}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente
+    \item \textbf{precondizione}: L’utente acquirente deve effettua il login
+    
+    \begin{enumerate}
+        \item L’utente acquirente accede alla Home
+        \item L’utente acquirente clicca sul pulsante “liste”
+        \item Il sistema apre l’elenco delle liste
+        \item L’utente acquirente clicca sulla lista interessata
+        \item Il sistema apre la lista 
+        \item L’utente acquirente elimina un articolo tramite il pulsante “-”
+        \item Il sistema chiede la conferma dell’eliminazione
+        \item L’utente acquirente clicca sul pulsante “conferma”
+        \item Il sistema cancella l’articolo dalla lista
+    \end{enumerate}
+    
+    \item \textbf{postcondizione}: L’utente acquirente ha eliminato un articolo dalla lista
+\end{itemize}
+
+
+\section{Cancellazione di una lista d’acquisto}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente
+    \item \textbf{precondizione}: L’utente acquirente deve effettua il login
+    
+    \begin{enumerate}
+        \item L’utente acquirente accede alla Home
+        \item L’utente acquirente clicca sul pulsante “liste”
+        \item Il sistema apre l’elenco delle liste
+        \item L’utente acquirente elimina una lista tramite il pulsante “-”
+        \item Il sistema chiede la conferma dell’eliminazione
+        \item L’utente acquirente clicca sul pulsante “conferma”
+        \item Il sistema cancella l’articolo dalla lista
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: L’utente acquirente ha eliminato una lista
+\end{itemize}
+		
+
+\section{Aggiungere un articolo in una lista d’acquisto}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente
+    \item \textbf{precondizione}: L’utente acquirente deve effettua il login
+
+    \begin{enumerate}
+        \item L’utente acquirente accede alla Home
+        \item L’utente acquirente clicca sul pulsante “+” presente dell’anteprima dell’articolo
+        \item Il sistema apre l’elenco delle liste già create
+        \item L’utente acquirente sceglie la lista alla quale aggiungere l’articolo
+        \label{listAdd1}
+        \item Il sistema memorizza l’articolo nella lista
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+        \item[\ref{listAdd1}a.] La lista non esiste
+        \item L’utente acquirente crea una nuova lista
+    \end{enumerate}
+
+    \item \textbf{postcondizione}:  L’utente acquirente ha creata la sua lista d’acquisto
+\end{itemize}
+
+
+\section{Creazione di un pdf della lista d’acquisto}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente
+    \item \textbf{precondizione}: L’utente acquirente deve effettuare il login
+    
+    \begin{enumerate}
+        \item L’utente acquirente accede alla Home
+        \item L’utente acquirente clicca sul pulsante “liste”
+        \item Il sistema apre l’elenco delle liste
+        \item L’utente acquirente clicca col tasto destro sulla lista interessata
+        \item L’utente acquirente, dal menu a tendina, sceglie l’opzione “invia pdf”
+        \item Il sistema crea un pdf della lista d’acquisto
+        \item Il sistema spedisce via e-mail il pdf
+        \item L’utente acquirente riceve l’email
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: L’utente acquirente ha ricevuto il pdf della sua lista d’acquisto
+\end{itemize}
+
+
+\section{Rilascio di feedback}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente
+    \item \textbf{precondizione}: L’utente acquirente deve effettuare il login 
+
+    \begin{enumerate}
+        \item L’utente acquirente accede alla Home
+        \item L’utente acquirente cerca, dall’apposita barra, l’articolo desiderato
+        \item L’utente acquirente clicca col tasto sinistro l’articolo interessato
+        \item L’utente acquirente scorre fino ad arrivare alla sezione feedback
+        \item L’utente acquirente commenta nell’apposito spazio
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: L’utente acquirente ha rilasciato un feedback
+\end{itemize}

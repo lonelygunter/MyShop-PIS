@@ -1,0 +1,184 @@
+\chapter{Manager}
+
+\section{Creazione di un ordine}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Il Manager deve effettuare il login
+
+    \begin{enumerate}
+        \item Il Manager accede alla menu bar
+        \item Il Manager seleziona la voce “articoli”
+        \item Il sistema apre l’elenco degli articoli
+        \item Il Manager cerca, dall’apposita barra, l’articolo desiderato
+        \item Il sistema trova l’articolo
+        \label{orderCr1}
+        \item Il Manager inserisce la quantità nell’apposito spazio
+        \item Il Manager clicca sul pulsante “+”
+        \item Il sistema aggiunge l’articolo all’ordine
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+        \item[\ref{orderCr1}a.] Il sistema non trova gli articoli
+        \item Il sistema comunica che il nome cercato non corrisponde a nessun articolo presente nel database
+    \end{enumerate}
+
+    \item \textbf{postcondizione} Il Manager ha creato un ordine
+\end{itemize}
+
+
+\section{Modifica di un ordine}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Il Manager deve effettuare il Login
+
+    \begin{enumerate}
+        \item L’amministratore accede alla menu bar
+        \item L’amministratore seleziona la voce “Manager”
+        \item Il sistema apre l’elenco dei Manager
+        \item L’amministratore clicca col tasto destro sul Manager
+        \item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+        \item Il sistema mostra i dati del Manager
+        \item L’amministratore modifica i dati sul Manager
+        \item L’amministratore clicca sul pulsante “modifica”
+        \label{orderMod1}
+        \item Il sistema verifica i dati del Manager
+        \item Il sistema chiede la conferma del Manager
+        \item L’amministratore clicca su “conferma”
+        \item Il sistema memorizza i dati del Manager
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+        \item[\ref{orderMod1}a.] I dati inseriti già esistono
+        \item Il sistema chiede il reinserimento dei dati
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: Il Manager ha modificato un ordine
+\end{itemize}
+
+
+\section{Cancellazione di un ordine}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Il Manager deve effettuare il login
+
+    \begin{enumerate}
+        \item Il Manager accede alla menu bar
+        \item Il Manager seleziona la voce “ordine”
+        \item Il sistema apre l’elenco degli ordini
+        \item Il Manager clicca sul tasto “-”
+        \item Il sistema chiede la conferma della cancellazione
+        \item Il Manager clicca su “conferma”
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: Il Manager ha eliminato un ordine
+\end{itemize}
+
+
+\section{Effettuare pagamento}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Creazione di un ordine
+    
+    \begin{enumerate}
+        \item Il Manager accede alla menu bar
+        \item Il Manager clicca su “ordine”
+        \item Il sistema apre l’elenco dell’ordine 
+        \item Il Manager clicca su “ordina”
+        \item Il sistema chiede i dati per effettuare il pagamento
+        \item Il Manager inserisce i dati per il pagamento
+        \item Il Manager clicca su “conferma”
+        \item Il sistema verifica che i dati siano corretti
+        \label{pay1}
+        \item Il sistema chiede se si vuole confermare l’ordine
+        \item Il Manager clicca su “conferma”
+    \end{enumerate}
+    
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+        \item[\ref{pay1}a.] I dati non sono corretti
+        \item Il sistema richiede il reinserimento dei dati
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: Il Manager ha effettuato il pagamento dell’ordine
+\end{itemize}
+
+
+\section{Disabilitazione di un utente}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Il Manager deve effettuare il login
+    
+    \begin{enumerate}
+        \item Il Manager accede alla menu bar
+        \item Il Manager seleziona la voce “utenza”
+        \item Il sistema apre l’elenco degli utenti registrati al punto vendita del Manager
+        \item Il Manager cerca, dall’apposita barra, l’utente desiderato
+        \item Il Manager clicca col tasto destro sull’utente
+        \item Il Manager, dal menu a tendina, sceglie l’opzione “disabilita”
+        \item Il sistema chiede la conferma della disabilitazione
+        \item Il Manager clicca su “conferma”
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: Il Manager disabilita il profilo di un utente
+\end{itemize}
+
+
+\section{Cancellazione di un utente}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Il Manager deve effettuare il login
+    
+    \begin{enumerate}
+        \item Il Manager accede alla menu bar
+        \item Il Manager seleziona la voce “utenza”
+        \item Il sistema apre l’elenco degli utenti registrati al punto vendita del Manager
+        \item Il Manager cerca, dall’apposita barra, l’utente desiderato
+        \item Il Manager clicca col tasto destro sull’utente
+        \item Il Manager, dal menu a tendina, sceglie l’opzione “disabilita”
+        \item Il sistema chiede la conferma della cancellazione
+        \item Il Manager clicca su “conferma”
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: Il Manager cancella il profilo di un utente
+\end{itemize}
+
+
+\section{Inviare un’e-mail ad un utente}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Il Manager deve effettuare il login
+    
+    \begin{enumerate}
+        \item Il Manager accede alla menu bar
+        \item Il Manager seleziona la voce “utenza”
+        \item Il sistema apre l’elenco degli utenti registrati al punto vendita del Manager
+        \item Il Manager cerca, dall’apposita barra, l’utente desiderato
+        \item Il Manager clicca col tasto destro sull’utente
+        \item Il Manager, dal menu a tendina, sceglie l’opzione “invia e-mail”
+        \item Il sistema richiede di inserire oggetto e messaggio
+        \item Il Manager inserisce oggetto e messaggio
+        \item Il Manager clicca su “invia”
+        \item Il sistema invia l’email
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: Il Manager ha inviato un’e-mail ad un utente
+\end{itemize}
+
+
+\section{Gestione dei feedback}
+\begin{itemize}
+    \item \textbf{attore}: Manager
+    \item \textbf{precondizione}: Il Manager deve effettuare il login 
+    
+    \begin{enumerate}
+        \item Il Manager accede alla Home
+        \item Il Manager cerca, dall’apposita barra, l’articolo desiderato
+        \item Il Manager clicca col tasto sinistro l’articolo interessato
+        \item Il Manager scorre fino ad arrivare al feedback interessato
+        \item Il Manager commenta nell’apposito spazio
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: Il Manager ha potuto rispondere ad un cliente
+\end{itemize}

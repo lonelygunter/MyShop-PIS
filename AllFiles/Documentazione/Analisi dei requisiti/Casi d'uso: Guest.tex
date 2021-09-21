@@ -1,0 +1,28 @@
+\chapter{Utente guest}
+
+
+\section{Registrazione}
+\begin{itemize}
+    \item \textbf{attore}: Utente Guest
+    \item \textbf{precondizioni}: n/a
+    
+    \begin{enumerate}
+        \item L’utente accede all’area di registrazione
+        \item L’utente inserisce i suoi dati
+        \label{reg1}
+        \begin{enumerate}
+            \item nome, cognome, e-mail, telefono, età, residenza, professione
+        \end{enumerate}
+        \item Il sistema verifica i dati non siano già esistenti
+        \item Il sistema gli memorizza
+        \item Il sistema torna alla Home
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+        \item[\ref{reg1}a.] I dati sono già esistenti
+        \item Il sistema avvisa l’utente che i dati sono già esistenti
+    \end{enumerate}
+
+    \item \textbf{postcondizione}: L’utente guest si è registrato
+\end{itemize}

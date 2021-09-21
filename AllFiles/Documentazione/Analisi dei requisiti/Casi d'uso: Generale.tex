@@ -1,0 +1,70 @@
+\chapter{Generale}
+
+\section{Login}
+\begin{itemize}
+    \item \textbf{attore}: Amministratore, Manager, Utente acquirente
+    \item \textbf{precondizione}: L’utente è già registrato
+    
+    \begin{enumerate}
+        \item L’utente accede all’area di login
+        \item L’utente inserisce username e password
+        \item Il sistema verifica la correttezza delle credenziali
+		\label{login1}        
+		\item Il sistema torna alla Home
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+	\begin {enumerate}
+		\item[\ref{login1}a.] Le credenziali non sono corrette:
+		
+		\item Il sistema chiede il reinserimento delle credenziali
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’utente ha effettuato il login con successo
+\end{itemize}
+
+
+\section{Consultare catalogo}
+\begin{itemize}
+    \item \textbf{attore}: Utente acquirente, Utente guest, Amministratore, Manager
+	\item \textbf{precondizione}: L’utente effettua il Login
+
+    \begin{enumerate}
+        \item L’utente accede alla Home
+        \item Il sistema apre il catalogo
+        \item L’utente cerca, dall’apposita barra, l’articolo desiderato
+        \label{catalog1}
+		\item L’utente, tramite l'anteprima dell’articolo, consulta il costo
+		\label{catalog2}
+		\item L’utente, tramite l'anteprima dell’articolo, consulta la disponibilità
+		\label{catalog3}
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{catalog1}a.] Il sistema non trova l’articolo
+            
+		\item Il sistema comunica che il nome cercato non corrisponde a nessun articolo presente nel database
+	\end{enumerate}
+
+    \item \textbf{attore}: Utente acquirente
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{catalog2}a.] La disponibilità manca
+            
+		\item L’utente acquirente potrà prenotare l’articolo
+	\end{enumerate}
+
+	\item \textbf{attore}: Manager
+	\item \textbf{estensioni}:
+        
+	\begin{enumerate}
+		\item[\ref{catalog3}a.] La disponibilità manca
+            
+		\item Il sistema comunica che manca la disponibilità tramite il numero 0
+        \item Il Manager fornisce il magazzino 
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: n/a
+\end{itemize}

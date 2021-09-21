@@ -1,0 +1,578 @@
+\chapter{Amministratore}
+		
+\section{Creazione di un articolo}
+\begin{itemize}
+    \item \textbf{attore}: Amministratore
+    \item \textbf{precondizione}: L’amministratore deve effettuare il Login
+    
+    \begin{enumerate}
+        \item L’amministratore accede alla menu bar
+        \label{itemCr1}
+        \item L’amministratore seleziona la voce “articoli”
+        \item Il sistema apre l’elenco degli articoli
+        \item L’amministratore clicca sul pulsante “crea”
+        \item Il sistema richiede i dati dell’articolo
+    
+		\begin{itemize}
+        	\item PRODOTTO / COMPOSIZIONE DI PRODOTTI:
+        	
+			\begin{enumerate}
+				\item nome
+				\item immagini rappresentative
+				\item descrizione max 255 char
+				\item produttore
+				\item costo
+				\item collocazione nel magazzino self-service (corsia,scaffale)
+				\item categoria
+				\item sottocategoria
+				\item uno o più prodotti al suo interno
+			\end{enumerate}
+		\end{itemize}
+
+    
+		\begin{itemize}
+			\item SERVIZIO:
+			
+			\begin{enumerate}
+				\item nome
+    			\item immagini rappresentative
+    			\item descrizione max 255 char
+    			\item fornitore
+    			\item costo
+    			\item categoria
+			\end{enumerate}
+		\end{itemize}
+    
+    	\item L’amministratore inserisce i dati dell’articolo
+    	\item L’amministratore clicca sul pulsante “crea”
+    	\label{itemCr2}
+    	\item Il sistema verifica i dati dell’articolo
+    	\label{itemCr3}
+    	\item Il sistema chiede la conferma della creazione
+    	\item L’amministratore clicca su “conferma”
+    	\item Il sistema memorizza i dati dell’articolo
+    \end{enumerate}
+
+    \item \textbf{estensioni}:
+    \begin{enumerate}
+		\item[\ref{itemCr1}a.] L’amministratore è appena entrato nel software
+		\item Il sistema gli apre direttamente la schermata degli articoli
+	\end{enumerate}
+        
+	\begin{enumerate}
+		\item[\ref{itemCr2}a.] L’articolo inserito già esiste
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+        
+	\begin{enumerate}
+		\item[\ref{itemCr3}a.] L’amministratore non ha inserito dei dati
+		\item Il sistema chiede l’inserimento dei dati mancanti
+	\end{enumerate}	
+            
+    \item \textbf{postcondizione}: L’amministratore ha inserito un nuovo articolo nel catalogo
+\end{itemize}
+		
+
+\section{Modifica di un articolo}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il Login
+
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\label{itemMod1}
+		\item L’amministratore seleziona la voce “articoli”
+		\item Il sistema apre l’elenco degli articoli
+		\item L’amministratore clicca col tasto destro sull’articolo
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+		\item Il sistema mostra i dati dell’articolo
+		\item L’amministratore modifica i dati dell’articolo
+		\item L’amministratore clicca sul pulsante “modifica”
+		\label{itemMod2}
+		\item Il sistema verifica i dati dell’articolo
+		\item Il sistema chiede la conferma della modifica
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati dell’articolo
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{itemMod1}a.] L’amministratore è appena entrato nel software
+		\item Il sistema gli apre direttamente la schermata degli articoli
+	\end{enumerate}
+
+	\begin{enumerate}
+		\item[\ref{itemMod2}a.] L’articolo inserito già esiste
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha modificato un articolo nel catalogo
+\end{itemize}
+
+
+\section{Cancellazione di un articolo}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\label{itemDel1}
+		\item L’amministratore seleziona la voce “articoli”
+		\item Il sistema apre l’elenco degli articoli
+		\item L’amministratore clicca col tasto destro sull’articolo
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “cancella”
+		\item Il sistema chiede la conferma della cancellazione
+		\item L’amministratore clicca su “conferma”
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{itemDel1}a.] L’amministratore è appena entrato nel software
+		\item Il sistema gli apre direttamente la schermata degli articoli
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha eliminato un articolo
+\end{itemize}
+
+		
+\section{Creazione di un produttore}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “produttori”
+		\item Il sistema apre l’elenco dei produttori
+		\item L’amministratore clicca sul pulsante “crea”
+		\item Il sistema richiede i dati del produttore
+		\begin{enumerate}
+			\item nome, email, telefono, sito web, città, nazione
+		\end{enumerate}
+		\item L’amministratore inserisce i dati del produttore
+		\item L’amministratore clicca sul pulsante “crea”
+		\label{prodCr1}
+		\item Il sistema verifica i dati del produttore
+		\item Il sistema chiede la conferma della creazione
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del produttore
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{prodCr1}a.] I dati inseriti già esistono
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha inserito un nuovo produttore
+\end{itemize}
+
+		
+\section{Modifica di un produttore}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il Login
+
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “produttori”
+		\item Il sistema apre l’elenco dei produttori
+		\item L’amministratore clicca col tasto destro sul produttore
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+		\item Il sistema mostra i dati del produttore
+		\item L’amministratore modifica i dati del produttore
+		\item L’amministratore clicca sul pulsante “modifica”
+		\label{prodMod1}
+		\item Il sistema verifica i dati del produttore
+		\item Il sistema chiede la conferma della modifica
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del produttore
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{prodMod1}a.] I dati inseriti già esiste
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha modificato un produttore
+\end{itemize}
+		
+
+\section{Cancellazione di un produttore}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “produttori”
+		\item Il sistema apre l’elenco dei produttore
+		\item L’amministratore clicca col tasto destro sul produttore
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “cancella”
+		\item Il sistema chiede la conferma della cancellazione
+		\item L’amministratore clicca su “conferma”
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha eliminato un produttore
+\end{itemize}
+
+
+\section{Creazione di un fornitore}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “fornitori”
+		\item Il sistema apre l’elenco dei fornitori
+		\item L’amministratore clicca sul pulsante “crea”
+		\item Il sistema richiede i dati del fornitore
+		\begin{enumerate}
+			\item nome, email, telefono, sito web, città, nazione
+		\end{enumerate}
+		\item L’amministratore inserisce i dati del fornitore
+		\item L’amministratore clicca sul pulsante “crea”
+		\label{forCr1}
+		\item Il sistema verifica i dati del fornitore
+		\item Il sistema chiede la conferma della creazione
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del fornitore
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{forCr1}a.] I dati inseriti già esistono 
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha inserito un nuovo fornitore
+\end{itemize}
+		
+
+\section{Modifica di un fornitore}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il Login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “fornitori”
+		\item Il sistema apre l’elenco dei fornitori
+		\item L’amministratore clicca col tasto destro sul fornitore
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+		\item Il sistema mostra i dati sul fornitore
+		\item L’amministratore modifica i dati sul fornitore
+		\item L’amministratore clicca sul pulsante “modifica”
+		\label{forMod1}
+		\item Il sistema verifica i dati del fornitore
+		\item Il sistema chiede la conferma della modifica
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del fornitore
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{forMod1}a.] I dati inseriti già esistono
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha modificato un fornitore
+\end{itemize}
+		
+
+\section{Cancellazione di un fornitore}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “fornitori”
+		\item Il sistema apre l’elenco dei fornitori
+		\item L’amministratore clicca col tasto destro sul fornitore
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “cancella”
+		\item Il sistema chiede la conferma della cancellazione
+		\item L’amministratore clicca su “conferma”
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha eliminato un fornitore
+\end{itemize}
+
+
+\section{Creazione di una categoria}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “categorie”
+		\item Il sistema apre l’elenco delle categorie
+		\item L’amministratore clicca sul pulsante “crea”
+		\item Il sistema richiede i dati della categoria
+		\item L’amministratore inserisce i dati della categoria
+		\item L’amministratore clicca sul pulsante “crea”
+		\label{catCr1}
+		\item Il sistema verifica i dati della categoria
+		\item Il sistema chiede la conferma della creazione
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati della categoria
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{catCr1}a.] I dati inseriti già esistono 
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha inserito una nuova categoria
+\end{itemize}
+
+
+\section{Modifica di una categoria}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il Login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “categorie”
+		\item Il sistema apre l’elenco delle categorie
+		\item L’amministratore clicca col tasto destro sulla categoria
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+		\item Il sistema mostra i dati sulla categoria
+		\item L’amministratore modifica i dati sulla categoria
+		\item L’amministratore clicca sul pulsante “modifica”
+		\label{catMod1}
+		\item Il sistema verifica i dati della categoria
+		\item Il sistema chiede la conferma della modifica
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati della categoria
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{catMod1}a.] I dati inseriti già esistono
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha modificato una categoria
+\end{itemize}
+
+
+\section{Cancellazione di una categoria}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “categorie”
+		\item Il sistema apre l’elenco delle categorie
+		\item L’amministratore clicca col tasto destro sulla categoria
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “cancella”
+		\item Il sistema chiede la conferma della cancellazione
+		\item L’amministratore clicca su “conferma”
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha eliminato una categoria
+\end{itemize}
+
+
+\section{Creazione di una sottocategoria}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “categorie”
+		\item Il sistema apre l’elenco delle categorie
+		\item L’amministratore clicca col tasto destro sull’articolo
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+		\item Il sistema mostra i dati della categoria
+		\item L’amministratore clicca sul pulsante “+”
+		\label{scatCr1}
+		\item Il sistema richiede il nome della sottocategoria
+		\item L’amministratore inserisce i dati della sottocategoria
+		\item L’amministratore clicca sul pulsante “crea”
+		\item Il sistema verifica i dati della sottocategoria
+		\item Il sistema chiede la conferma della creazione
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati della sottocategoria
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{scatCr1}a.] La sottocategoria già esiste
+		\item Il sistema chiede il reinserimento del nome
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha inserito una nuova sottocategoria	
+\end{itemize}
+
+
+\section{Creazione punto vendita}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “punti vendita”
+		\item Il sistema apre l’elenco dei punti vendita
+		\item L’amministratore clicca sul pulsante “crea”
+		\item Il sistema richiede i dati del punto vendita
+		\begin{enumerate}
+			\item nome, categorie di articoli venduti, manager, posizione ...
+		\end{enumerate}
+		\item L’amministratore inserisce i dati del punto vendita
+		\item L’amministratore clicca sul pulsante “crea”
+		\item Il sistema verifica i dati del punto vendita
+		\label{storeCr1}
+		\item Il sistema chiede la conferma del punto vendita
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del punto vendita
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{storeCr1}a.] I dati inseriti già esistono 
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha inserito un nuovo punto vendita
+\end{itemize}
+
+
+\section{Modifica di un punto vendita}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il Login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “punti vendita”
+		\item Il sistema apre l’elenco dei punti vendita
+		\item L’amministratore clicca col tasto destro sul punto  vendita
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+		\item Il sistema mostra i dati del punto vendita
+		\item L’amministratore modifica i dati sul punto vendita
+		\item L’amministratore clicca sul pulsante “modifica”
+		\label{storeMod1}
+		\item Il sistema verifica i dati del punto vendita
+		\item Il sistema chiede la conferma del punto vendita
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del punto vendita
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{storeMod1}a.] I dati inseriti già esistono
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha modificato un punto vendita
+\end{itemize}
+
+
+\section{Cancellazione di un punto vendita}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “punti vendita”
+		\item Il sistema apre l’elenco dei punti vendita
+		\item L’amministratore clicca col tasto destro sul punto vendita
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “cancella”
+		\item Il sistema chiede la conferma della cancellazione
+		\item L’amministratore clicca su “conferma”
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha eliminato un punto vendita
+\end{itemize}
+
+
+\section{Creazione di un Manager}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}:  L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “manager”
+		\item Il sistema apre l’elenco dei Manager
+		\item L’amministratore clicca sul pulsante “crea”
+		\item Il sistema richiede i dati del Manager
+		\item L’amministratore inserisce i dati del Manager
+		\item L’amministratore clicca sul pulsante “crea”
+		\label{manCr1}
+		\item Il sistema verifica i dati del Manager
+		\item Il sistema chiede la conferma del Manager
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del Manager
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{manCr1}a.] I dati inseriti già esistono 
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha inserito un nuovo Manager
+\end{itemize}
+
+		
+\section{Modifica di un Manager}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il Login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “Manager”
+		\item Il sistema apre l’elenco dei Manager
+		\item L’amministratore clicca col tasto destro sul Manager
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “modifica”
+		\item Il sistema mostra i dati del Manager
+		\item L’amministratore modifica i dati sul Manager
+		\item L’amministratore clicca sul pulsante “modifica”
+		\label{manMod1}
+		\item Il sistema verifica i dati del Manager
+		\item Il sistema chiede la conferma del Manager
+		\item L’amministratore clicca su “conferma”
+		\item Il sistema memorizza i dati del Manager
+	\end{enumerate}
+
+	\item \textbf{estensioni}:
+	\begin{enumerate}
+		\item[\ref{manMod1}a.] I dati inseriti già esistono
+		\item Il sistema chiede il reinserimento dei dati
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha modificato un Manager
+\end{itemize}
+
+		
+\section{Cancellazione di un Manager}
+\begin{itemize}
+	\item \textbf{attore}: Amministratore
+	\item \textbf{precondizione}: L’amministratore deve effettuare il login
+	
+	\begin{enumerate}
+		\item L’amministratore accede alla menu bar
+		\item L’amministratore seleziona la voce “Manager”
+		\item Il sistema apre l’elenco dei Manager
+		\item L’amministratore clicca col tasto destro sul Manager
+		\item L’amministratore, dal menu a tendina, sceglie l’opzione “cancella”
+		\item Il sistema chiede la conferma della cancellazione
+		\item L’amministratore clicca su “conferma”
+	\end{enumerate}
+
+	\item \textbf{postcondizione}: L’amministratore ha eliminato un Manager
+\end{itemize}

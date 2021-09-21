@@ -1,0 +1,54 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\usepackage{blindtext}
+\usepackage{hyperref}
+
+
+\title{
+    \includegraphics[width=1\textwidth]{/Users/matt/Projects/GITHUB/Documentazione/unisalento logo.png} \\
+    \huge {Progetto per Principi di Ingegneria dell'Informazione} \\
+}
+
+\author{Aprile Matteo, Goffredo Filippo}
+\date{2020/2021}
+
+\begin{document}
+
+    
+    \maketitle
+    \tableofcontents
+
+    \part{Analisi dei requisiti}
+    \include{Analisi dei requisiti/Casi d'uso: Generale.tex}
+    \include{Analisi dei requisiti/Casi d'uso: Amministratore.tex}
+    \include{Analisi dei requisiti/Casi d'uso: Manager.tex}
+    \include{Analisi dei requisiti/Casi d'uso: Utente acquirente.tex}
+    \include{Analisi dei requisiti/Casi d'uso: Guest.tex}
+
+    \part{UML dell'architettura software}
+    \include{UML dell'architettura software/UML dei casi d'uso.tex}
+    \include{UML dell'architettura software/CRC.tex}
+    \include{UML dell'architettura software/Diagramma delle classi.tex}
+    \include{UML dell'architettura software/Diagrammi di sequenza.tex}
+
+    \part{Utilizzo dei design pattern adottati}
+    \include{Design pattern/Design pattern.tex}
+    
+    \part{Progettazione della base di dati}
+    \include{Progettazione Concettuale/Progettazione concettuale/Progettazione concettuale.tex}
+    \include{Progettazione Concettuale/Progettazione logica/EER diagram.tex}
+    \include{Progettazione concettuale/Dizionario dei dati/Dizionario dei dati.tex}
+
+    \part{Esiti degli unit test}
+    \include{Unit test/Unit test.tex}
+
+    \part{Scrum}
+    \include{Scrum/Sprint backlog/Sprint Backlog.tex}
+    \include{Scrum/Burndown chart/Burndown chart.tex}
+\end{document}

@@ -1,0 +1,100 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {part}{I\hspace {1em}Analisi dei requisiti}{4}{part.1}%
+\contentsline {chapter}{\numberline {1}Generale}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Login}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Consultare catalogo}{5}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Amministratore}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Creazione di un articolo}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Modifica di un articolo}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Cancellazione di un articolo}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Creazione di un produttore}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Modifica di un produttore}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Cancellazione di un produttore}{11}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Creazione di un fornitore}{11}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Modifica di un fornitore}{12}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Cancellazione di un fornitore}{12}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Creazione di una categoria}{13}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Modifica di una categoria}{13}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Cancellazione di una categoria}{14}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Creazione di una sottocategoria}{14}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Creazione punto vendita}{15}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Modifica di un punto vendita}{16}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Cancellazione di un punto vendita}{16}{section.2.16}%
+\contentsline {section}{\numberline {2.17}Creazione di un Manager}{17}{section.2.17}%
+\contentsline {section}{\numberline {2.18}Modifica di un Manager}{17}{section.2.18}%
+\contentsline {section}{\numberline {2.19}Cancellazione di un Manager}{18}{section.2.19}%
+\contentsline {chapter}{\numberline {3}Manager}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Creazione di un ordine}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modifica di un ordine}{19}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Cancellazione di un ordine}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Effettuare pagamento}{20}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Disabilitazione di un utente}{21}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Cancellazione di un utente}{21}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Inviare un’e-mail ad un utente}{22}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Gestione dei feedback}{22}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Utente acquirente}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Prenotazione di un articolo}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Creazione di una lista d’acquisto}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Modifica di una lista d’acquisto}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Cancellazione di una lista d’acquisto}{24}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Aggiungere un articolo in una lista d’acquisto}{25}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Creazione di un pdf della lista d’acquisto}{25}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Rilascio di feedback}{26}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Utente guest}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Registrazione}{27}{section.5.1}%
+\contentsline {part}{II\hspace {1em}UML dell'architettura software}{28}{part.2}%
+\contentsline {chapter}{\numberline {6}UML dei casi d'uso}{29}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Schede CRC}{30}{chapter.7}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Schede CRC/CRC1.jpg} }{30}{section*.2}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Schede CRC/CRC2.jpg} }{31}{section*.3}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Schede CRC/CRC3.jpg} }{32}{section*.4}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Schede CRC/CRC4.jpg} }{33}{section*.5}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Schede CRC/CRC5.jpg} }{34}{section*.6}%
+\contentsline {chapter}{\numberline {8}Diagramma delle classi}{35}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Diagrammi di sequenza}{36}{chapter.9}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Diagrammi di sequenza/seq1.jpg} }{36}{section*.7}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Diagrammi di sequenza/seq2.jpg} }{37}{section*.8}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Diagrammi di sequenza/seq3.jpg} }{37}{section*.9}%
+\contentsline {paragraph}{ \includegraphics [width=0.6\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Diagrammi di sequenza/seq4.jpg} }{38}{section*.10}%
+\contentsline {paragraph}{ \includegraphics [width=0.6\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Diagrammi di sequenza/seq5.jpg} }{38}{section*.11}%
+\contentsline {paragraph}{ \includegraphics [width=\textwidth ]{/Users/matt/Projects/GITHUB/Documentazione/UML dell'architettura software/Diagrammi di sequenza/seq6.jpg} }{38}{section*.12}%
+\contentsline {part}{III\hspace {1em}Utilizzo dei design pattern adottati}{39}{part.3}%
+\contentsline {chapter}{\numberline {10}Indicazione dei design pattern}{40}{chapter.10}%
+\contentsline {part}{IV\hspace {1em}Progettazione della base di dati}{41}{part.4}%
+\contentsline {chapter}{\numberline {11}Progettazione concettuale}{42}{chapter.11}%
+\contentsline {chapter}{\numberline {12}EER diagram}{43}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Dizionario dei dati}{44}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Utente}{44}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Lista}{44}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Articolo}{45}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Grossista}{45}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Immagine}{45}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Punto vendita}{45}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Feedback}{46}{section.13.7}%
+\contentsline {section}{\numberline {13.8}Ordine}{46}{section.13.8}%
+\contentsline {section}{\numberline {13.9}Pagamento}{46}{section.13.9}%
+\contentsline {part}{V\hspace {1em}Esiti degli unit test}{47}{part.5}%
+\contentsline {chapter}{\numberline {14}Unit test}{48}{chapter.14}%
+\contentsline {section}{\numberline {14.1}ListDAOTest}{48}{section.14.1}%
+\contentsline {section}{\numberline {14.2}ManagerDAOTest}{48}{section.14.2}%
+\contentsline {section}{\numberline {14.3}OrderDAOTest}{49}{section.14.3}%
+\contentsline {section}{\numberline {14.4}CompositeProductDAOTest}{49}{section.14.4}%
+\contentsline {section}{\numberline {14.5}PositionDAOTest}{49}{section.14.5}%
+\contentsline {section}{\numberline {14.6}ProductDAOTest}{49}{section.14.6}%
+\contentsline {section}{\numberline {14.7}PurchaseDAOTest}{50}{section.14.7}%
+\contentsline {section}{\numberline {14.8}ServiceDAOTest}{50}{section.14.8}%
+\contentsline {section}{\numberline {14.9}StockistDAOTest}{50}{section.14.9}%
+\contentsline {section}{\numberline {14.10}StoreDAOTest}{50}{section.14.10}%
+\contentsline {section}{\numberline {14.11}WholesalerDAOTest}{51}{section.14.11}%
+\contentsline {section}{\numberline {14.12}PaymentDAOTest}{51}{section.14.12}%
+\contentsline {section}{\numberline {14.13}ProducerDAOTest}{51}{section.14.13}%
+\contentsline {section}{\numberline {14.14}UserDAOTest}{51}{section.14.14}%
+\contentsline {section}{\numberline {14.15}BuyerDAOTest}{52}{section.14.15}%
+\contentsline {section}{\numberline {14.16}AdministratorDAOTest}{52}{section.14.16}%
+\contentsline {section}{\numberline {14.17}CategoryDAOTest}{52}{section.14.17}%
+\contentsline {section}{\numberline {14.18}ItemDAOTest}{53}{section.14.18}%
+\contentsline {section}{\numberline {14.19}FeedbackDAOTest}{53}{section.14.19}%
+\contentsline {part}{VI\hspace {1em}Scrum}{54}{part.6}%
+\contentsline {chapter}{\numberline {15}Sprint Backlog}{55}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Burndown char}{57}{chapter.16}%

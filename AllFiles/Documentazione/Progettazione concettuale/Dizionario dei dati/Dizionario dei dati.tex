@@ -1,0 +1,152 @@
+\chapter{Dizionario dei dati}
+
+
+\section{Utente}
+Descrizione: Entità dell'utente generico
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &   \\
+        Nome &  & String & (0, 45) \\
+        Cognome &  & String & (0, 45) \\
+        Età &  & date &  \\
+        Email &  & String & (0, 100) \\
+        Telefono & & String & (0, 45) \\
+        Residenza & Via + numero civico & String & (0, 100) \\
+        CAP &  & String & (0, 45) \\
+        Professione & Amministratore, Manager, acquirente & char & (1) \\
+        \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Lista}
+Descrizione: Lista d'acquisto del acquirente
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Nome &  & String & (0, 45) \\
+        Data & Data della creazione & date &  \\
+        Costo &  & float &  \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\newpage
+\section{Articolo}
+Descrizione: Articolo presente nel punto vendita
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Nome &  & String & (0, 45) \\
+        Descrizione &  & String & (0, 255) \\
+        Costo &  & float &  \\
+        Categoria &  & String & (0, 45) \\
+        Sottocategoria &  & String & (0, 45) \\
+        Tipo & Prodotto, composizione, servizio & char &  \\
+        \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Grossista}
+Descrizione: Produttore o fornitore di prodotti o servizi
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Nome &  & String & (0, 45) \\
+        Email &  & String & (0, 100) \\
+        Telefono &  & String & (0, 45) \\
+        Sito web &  & String & (0, 255) \\
+        Città &  & String & (0, 45) \\
+        Nazione &  & String & (0, 45) \\
+        \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Immagine}
+Descrizione: Immagine che permette di vendere l'articolo
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Png &  & Image &  \\
+        \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Punto vendita}
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Telefono &  & String & (0, 45) \\
+        Residenza & Via + numero civico & String & (0, 100) \\
+        CAP &  & String & (0, 45) \\
+        Nazione &  & String & (0, 45) \\
+        \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Feedback}
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Commento &  & String & (0, 150) \\
+        Rating &  & int & (1, 5) \\
+        \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Ordine}
+Descrizione: Ordine del Manager
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Data & Data della creazione & date &  \\
+        Costo &  & float &  \\
+        \hline
+    \end{tabular}
+\end{center}
+
+
+\section{Pagamento}
+\begin{center}
+    \begin{tabular}{||c c c c||}
+        \hline
+        Attributo & Descrizione & Tipo & (min, max) \\ [0.5ex]
+        \hline \hline
+        Id &  & int &  \\
+        Data & Data del pagamento & date &  \\
+        Costo &  & float &  \\
+        NCard & Numero della carta di credito & int & (0, 16) \\
+        VData & Data di validità & date &  \\
+        CVV & Codice di verifica & inte & (0, 3) \\
+        \hline
+    \end{tabular}
+\end{center}
